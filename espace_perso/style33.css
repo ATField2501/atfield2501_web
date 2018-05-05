@@ -1,0 +1,51 @@
+body
+{ 
+    background-color:black;
+    background-image: url("2001.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+@font-face {
+    font-family: 'Ojack';
+    src: url('../SquaredDisplay.ttf');    
+}
+
+p
+{
+   
+    text-align: center; 
+    color: chartreuse;
+    font-family: 'Ojack', Arial, serif;
+    font-size:220%;
+   
+}
+
+h1
+{
+   
+    text-align: left; 
+    margin-left:5%;
+    color: chartreuse;
+    font-family: 'Ojack', Arial, serif;
+    font-size:120%;
+   
+}
+
+h2
+{
+   
+    text-align: right; 
+    margin-right:5%;
+    color: chartreuse;
+    font-family: 'Ojack', Arial, serif;
+    font-size:175%;
+   
+}
+
+
+input
+{
+   background-color: transparent;
+}
