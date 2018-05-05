@@ -1,0 +1,808 @@
+
+body
+{ 
+    background-color: black;
+    background-image: url("font02.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+@font-face {
+    font-family: 'Ojack';
+    src: url('SquaredDisplay.ttf');    
+}
+
+
+
+title
+{
+    color: green;
+}
+
+
+h1
+{
+    color: chartreuse;
+    text-align: center; 
+    font-family: 'Ojack', Arial, serif;
+    font-size: 82px;
+    text-shadow: 16px 16px 16px yellow inset;
+
+      
+}
+
+
+li
+{
+    
+    color: green; 
+    margin-left: 55px;   
+}
+
+p
+{
+    color: green;
+    text-align: center;
+}
+
+h2
+{    
+    color: chartreuse;   
+    font-size: 26px;
+    border: 3px green double;
+    border-radius: 10px;
+    width: 115%;
+    box-shadow: 0px -2px 6px green; 
+    font-family: 'Ojack', Arial, serif;
+
+    text-align: center;
+   
+
+}
+
+h3
+{
+
+    color: green;
+    text-align: center;
+    border: 4px green double;
+    border-radius: 10px;
+    margin-left:2%;
+       
+    width: 145%;
+}
+
+h3:hover
+{
+
+    color: yellow;
+    text-align: center;
+    border: 4px green double;
+    border-radius: 10px;
+    margin-left:4%;
+    
+    width: 147%;
+}
+
+h3:active
+{
+
+    color: green;
+    text-align: center;
+    border: 4px yellow double;
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 2px chartreuse;   
+    width: 144%;
+}
+
+
+h6
+{
+    color: yellow;   
+    text-align:center; 
+
+
+}
+
+h4
+{
+    border: 4px green double;
+    border-radius: 10px;
+    width: 140px;
+    box-shadow: 0px -6px 6px green;
+    margin-left: 15%;
+}
+
+h7
+{
+    color: chartreuse;
+    text-align: center;
+    border: 4px chartreuse double;
+    font-size: 26px;
+    border-radius: 10px;
+
+    font-family: 'Ojack', Arial, serif;        
+
+    padding-left:10%;
+    padding-right:10%;
+}
+
+h9
+{
+
+    margin-left: 15%;
+}
+
+
+
+li:hover
+{
+    color: red;
+}
+
+a
+{
+   color:yellow;
+   text-decoration:none;
+}
+
+#conteneur0  
+{
+       
+    display: flex;
+  
+
+        
+}
+
+
+.element0:nth-child(1)
+{
+
+    border-radius: 10px;
+    margin-left:12%;
+       
+
+}
+
+
+.element0:nth-child(2)
+{
+ 
+    align-self: flex-end;
+    margin-left:-7%;
+}
+
+.element0:nth-child(3)
+{
+    margin-left:56%;
+}
+
+
+.element0:nth-child(4)
+{
+
+}
+
+
+
+
+/* Sur tous types d'écrans orientés verticalement */
+
+@media all and (orientation: portrait)
+{
+
+
+body
+{ 
+    background-color: black;
+    background-image: url("font02.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+@font-face {
+    font-family: 'Ojack';
+    src: url('SquaredDisplay.ttf');    
+}
+
+
+
+title
+{
+    color: green;
+}
+
+
+h1
+{
+    color: chartreuse;
+    text-align: center; 
+    font-family: 'Ojack', Arial, serif;
+    font-size: 82px;
+    text-shadow: 16px 16px 16px yellow inset;
+
+      
+}
+
+
+li
+{
+    
+    color: green; 
+
+}
+
+p
+{
+    color: green;
+    text-align: center;
+}
+
+h2
+{    
+    color: chartreuse;   
+    font-size: 26px;
+    border: 3px green double;
+    border-radius: 10px;
+    width: 55%;
+    box-shadow: 0px -2px 6px green; 
+    font-family: 'Ojack', Arial, serif;
+
+    text-align: center;
+   
+
+}
+
+h3
+{
+
+    color: green;
+
+    border: 4px green double;
+    border-radius: 10px;
+
+
+    width: 105%;
+}
+
+h3:hover
+{
+
+    color: yellow;
+
+    border: 4px green double;
+    border-radius: 10px;
+
+    
+    width: 107%;
+}
+
+h3:active
+{
+
+    color: green;
+
+    border: 4px yellow double;
+    border-radius: 10px;
+
+
+    width: 104%;
+}
+
+a
+{
+   color:yellow;
+   text-decoration:none;
+}
+
+h6
+{
+    color: yellow;   
+    text-align:center; 
+
+
+}
+
+h5
+{
+   margin-top:24%;
+
+
+}
+
+h4
+{
+    border: 4px green double;
+    border-radius: 10px;
+    width: 140px;
+    box-shadow: 0px -6px 6px green;
+    margin-left: 15%;
+}
+
+h7
+{
+    color: chartreuse;
+    text-align: center;
+    border: 4px chartreuse double;
+    font-size: 26px;
+    border-radius: 10px;
+
+    font-family: 'Ojack', Arial, serif;        
+    width: 175%;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+h9
+{
+        display: none;
+}
+
+
+
+li:hover
+{
+    color: red;
+}
+
+
+
+#conteneur0  
+{
+       
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+        
+}
+
+.element0:nth-child(1)
+{
+
+    margin-left:6%;    
+}
+
+
+.element0:nth-child(2)
+{
+    margin-right:11%;
+
+}
+
+.element0:nth-child(3)
+{
+
+}
+
+
+.element:nth-child(4)
+{
+
+}
+
+
+
+
+
+
+
+hh
+{
+    display: none;
+}
+}
+
+}
+
+
+
+
+@media screen and (max-width: 1280px)
+
+{
+
+hh
+{
+    display: none;
+}
+body
+{ 
+    background-color: black;
+    background-image: url("font02.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+@font-face {
+    font-family: 'Ojack';
+    src: url('SquaredDisplay.ttf');    
+}
+
+
+
+title
+{
+    color: green;
+}
+
+
+h1
+{
+    color: chartreuse;
+    text-align: center; 
+    font-family: 'Ojack', Arial, serif;
+    font-size: 82px;
+    text-shadow: 16px 16px 16px yellow inset;
+
+      
+}
+
+
+li
+{
+    
+    color: green; 
+    margin-left: 55px;   
+}
+
+p
+{
+    color: green;
+    text-align: center;
+}
+
+h2
+{    
+    color: chartreuse;   
+    font-size: 26px;
+    border: 3px green double;
+    border-radius: 10px;
+    width: 115%;
+    box-shadow: 0px -2px 6px green; 
+    font-family: 'Ojack', Arial, serif;
+
+    text-align: center;
+   
+
+}
+
+h3
+{
+
+    color: green;
+    text-align: center;
+    border: 4px green double;
+    border-radius: 10px;
+    margin-left:2%;
+       
+    width: 145%;
+}
+
+h3:hover
+{
+
+    color: yellow;
+    text-align: center;
+    border: 4px green double;
+    border-radius: 10px;
+    margin-left:4%;
+    
+    width: 147%;
+}
+
+h3:active
+{
+
+    color: green;
+    text-align: center;
+    border: 4px yellow double;
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 2px chartreuse;   
+    width: 144%;
+}
+
+
+h6
+{
+    color: yellow;   
+    text-align:center; 
+
+
+}
+
+h4
+{
+    border: 4px green double;
+    border-radius: 10px;
+    width: 140px;
+    box-shadow: 0px -6px 6px green;
+    margin-left: 15%;
+}
+
+h7
+{
+    color: chartreuse;
+    text-align: center;
+    border: 4px chartreuse double;
+    font-size: 26px;
+    border-radius: 10px;
+
+    font-family: 'Ojack', Arial, serif;        
+
+    padding-left:10%;
+    padding-right:10%;
+}
+
+h9
+{
+
+    margin-left: 15%;
+}
+
+
+li:hover
+{
+    color: red;
+}
+
+a
+{
+   color:yellow;
+   text-decoration:none;
+}
+
+#conteneur0  
+{
+       
+    display: flex;
+  
+
+        
+}
+
+
+.element0:nth-child(1)
+{
+
+    border-radius: 10px;
+    margin-left:6%;
+          align-self: flex-start;  
+
+}
+
+
+.element0:nth-child(2)
+{
+ 
+
+    margin-left:56%;
+}
+
+.element0:nth-child(3)
+{
+
+}
+
+
+.element0:nth-child(4)
+{
+
+}
+
+
+}
+
+@media all and (360x640)
+{
+
+hh
+{
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 1600px)
+
+{
+
+
+body
+{ 
+    background-color: black;
+    background-image: url("font02.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+@font-face {
+    font-family: 'Ojack';
+    src: url('SquaredDisplay.ttf');    
+}
+
+
+
+title
+{
+    color: green;
+}
+
+
+h1
+{
+    color: chartreuse;
+    text-align: center; 
+    font-family: 'Ojack', Arial, serif;
+    font-size: 82px;
+    text-shadow: 16px 16px 16px yellow inset;
+
+      
+}
+
+
+li
+{
+    
+    color: green; 
+    margin-left: 55px;   
+}
+
+p
+{
+    color: green;
+    text-align: center;
+}
+
+h2
+{    
+    color: chartreuse;   
+    font-size: 26px;
+    border: 3px green double;
+    border-radius: 10px;
+    width: 115%;
+    box-shadow: 0px -2px 6px green; 
+    font-family: 'Ojack', Arial, serif;
+
+    text-align: center;
+   
+
+}
+
+h3
+{
+
+    color: green;
+    text-align: center;
+    border: 4px green double;
+    border-radius: 10px;
+    margin-left:2%;
+       
+    width: 145%;
+}
+
+h3:hover
+{
+
+    color: yellow;
+    text-align: center;
+    border: 4px green double;
+    border-radius: 10px;
+    margin-left:4%;
+    
+    width: 147%;
+}
+
+h3:active
+{
+
+    color: green;
+    text-align: center;
+    border: 4px yellow double;
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 2px chartreuse;   
+    width: 144%;
+}
+
+
+h6
+{
+    color: yellow;   
+    text-align:center; 
+
+
+}
+
+h4
+{
+    border: 4px green double;
+    border-radius: 10px;
+    width: 140px;
+    box-shadow: 0px -6px 6px green;
+    margin-left: 15%;
+}
+
+h7
+{
+    color: chartreuse;
+    text-align: center;
+    border: 4px chartreuse double;
+    font-size: 26px;
+    border-radius: 10px;
+
+    font-family: 'Ojack', Arial, serif;        
+
+    padding-left:10%;
+    padding-right:10%;
+}
+
+h9
+{
+
+    margin-left: 15%;
+}
+
+
+li:hover
+{
+    color: red;
+}
+
+a
+{
+   color:yellow;
+   text-decoration:none;
+}
+
+#conteneur0  
+{
+       
+    display: flex;
+  
+
+        
+}
+
+
+.element0:nth-child(1)
+{
+
+    border-radius: 10px;
+    margin-left:6%;
+          align-self: flex-start;  
+
+}
+
+
+.element0:nth-child(2)
+{
+ 
+
+    margin-left:-8%;
+}
+
+.element0:nth-child(3)
+{
+
+}
+
+
+.element0:nth-child(4)
+{
+
+}
+
+
+
+}
+
+
+
