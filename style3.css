@@ -1,0 +1,74 @@
+body
+{ 
+    color: black; 
+    background-color: black;
+}
+
+
+p
+{
+
+   text-align: center; 
+   font-family: 'jack', Arial, serif;
+   font-size: 29px;
+   color:black;
+
+}  
+
+p:hover
+{
+    text-align: center; 
+    transform: rotate(720deg);   
+    transition-duration: 30s;
+
+}
+
+p:active
+{
+    text-align: center; 
+
+
+}
+
+
+@font-face {
+    font-family: 'jack';
+    src: url('SquaredDisplay.ttf');
+}
+
+h1
+{
+
+   text-align: center; 
+   font-family: 'jack', Arial, serif;
+   font-size: 67px;
+   color:red;
+
+}  
+h2
+{
+
+   text-align: center; 
+   font-family: 'jack', Arial, serif;
+   font-size: 145%;
+   color:red;
+
+}  
+#conteneur  
+{
+  
+    flex-wrap: wrap;
+
+   
+}
+
+
+echo
+{
+   text-align: center; 
+   font-family: 'jack', Arial, serif;
+   font-size: 10%;
+   color:red;
+}
+
+
