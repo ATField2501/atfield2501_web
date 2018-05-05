@@ -13,7 +13,7 @@
 <?php
 echo '<p><h2> Adresse du Serveur : ' . $_SERVER['SERVER_NAME'] . '</h2></p>';
 echo '<p><h2>' . $_SERVER['HTTP_USER_AGENT'] . '</p></h2>';
-if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "!<*G2[c$") // Si le mot de passe est bon
+if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "mdp::^^") // Si le mot de passe est bon
 {
 
 
