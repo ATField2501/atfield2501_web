@@ -1,0 +1,53 @@
+
+body
+{ 
+  background-color: black;  
+
+}
+
+@font-face {
+    font-family: 'Ojack';
+    src: url('../SquaredDisplay.ttf');    
+}
+
+h2
+{
+    text-align: center; 
+    color: chartreuse;
+    border-radius: 10px;
+    font-size: 82px;
+    border: 3px green double; 
+}
+
+p
+{
+    color: green;
+    text-align: center;
+}
+
+h4
+{
+    text-align: center; 
+    color: chartreuse;
+    font-size: 82px;
+    border-radius: 10px;
+    border: 3px green double; 
+    font-family: 'Ojack', Arial, serif;
+}
+
+h3
+{
+    text-align: center; 
+    color: chartreuse;
+    font-size: 32px;
+    border-radius: 10px;
+    border: 3px green double; 
+    font-family: 'Ojack', Arial, serif;
+}
+
+a
+{
+    text-decoration:none;
+    color:green;
+    font-family: 'Ojack', Arial, serif;
+}
