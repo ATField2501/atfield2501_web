@@ -37,7 +37,8 @@ $req = $bdd->prepare('INSERT INTO Chat (pseudo, message , date, heure) VALUES(?,
 $req->execute(array($_POST['pseudo'], $_POST['message'], $_POST['date'] = date("d-m-Y"), $_POST['heure'] = date("H:i")));
 
 
-
+//Envois d'un email à l'admin pour information sur nouveau post
+include("fonction_mail.php");
 
 
 
