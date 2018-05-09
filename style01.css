@@ -71,7 +71,7 @@ h3
     margin-left:2%;
      font-family: 'Ojack', Arial, serif;    
 font-size: 150%;          
-    width: 145%;
+    width: 105%;
 }
 
 h3:hover
@@ -83,7 +83,7 @@ h3:hover
     border-radius: 10px;
     margin-left:4%;
     
-    width: 147%;
+    width: 107%;
 }
 
 h3:active
@@ -95,7 +95,7 @@ h3:active
     border-radius: 10px;
 
     box-shadow: 0px 2px 2px chartreuse;   
-    width: 144%;
+    width: 104%;
 }
 
 
@@ -121,7 +121,7 @@ h7
     color: chartreuse;
     text-align: center;
     border: 4px chartreuse double;
-    font-size: 26px;
+    font-size: 36px;
     border-radius: 10px;
 
     font-family: 'Ojack', Arial, serif;        
