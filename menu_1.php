@@ -3,11 +3,11 @@
 
            <div class="element0"><h7> Navigation </h7>
            <h3> 
-           <a href="Web_irc/chat.php" title="Chat-Box" > Chat-BoX</a>
+           <a href="Web_irc/chat.php" title="Chat-Box" > Chat BoX</a>
            </h3>
 
            <h3> 
-           <a href="juke-box/jukebox.php" title="Juke-Box" > Juke-BoX</a>
+           <a href="juke-box/jukebox.php" title="Juke Box" > Juke BoX</a>
            </h3>
 
            <h3> 
@@ -21,11 +21,11 @@
 
 
            <h3> 
-           <a href="ascii-art/ascii_art.php" title="Ascii-Art" > Ascii-Art</a>
+           <a href="ascii-art/ascii_art.php" title="Ascii Art" > Ascii Art</a>
            </h3>
 
            <h3> 
-           <a href="index.php" title="home" > ::(;,,;)::</a>
+           <a href="index.php" title="home" > :: (;,,;) ::</a>
            </h3></div>
 
            <div class="element0"><hh><img src="shigurui.jpg"/></hh></div></div>      
