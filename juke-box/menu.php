@@ -20,7 +20,7 @@
 
         <div class="element0">
              <h4>
-             <a href="zeul.php" title="son"> Zeühl </a></h4>             
+             <a href="zeul.php" title="son"> Zeuhl </a></h4>             
         
         
              <h4>

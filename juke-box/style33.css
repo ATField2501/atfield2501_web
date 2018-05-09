@@ -116,6 +116,7 @@ h4
     width: 140px;
     text-align: center;
     margin-left: 15%;
+    font-family: 'Ojack', Arial, serif;        
 }
 
 
@@ -590,10 +591,12 @@ h4
 {
     border: 4px green double;
     border-radius: 10px;
-    width: 300px;   
-    margin-left: 29%;
-    font-size: 36px;
+    width: 140px;
+    text-align: center;
+    margin-left: 15%;
+    font-family: 'Ojack', Arial, serif;
 }
+
 
 
 h4:hover
