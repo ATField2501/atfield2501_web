@@ -30,7 +30,7 @@ session_start();
         <div class="element0">
         
              <h3>
-             <a href="chat.php" title="Home"> Rafraîchir </a></h3>
+             <a href="chat.php" title="Home"> Rafraichir </a></h3>
         </div>
 
         <div class="element0">
