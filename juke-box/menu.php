@@ -6,7 +6,7 @@
         
         
              <h4>
-             <a href="hiphop.php" title="son"> Hip-Hop </a></h4>
+             <a href="hiphop.php" title="son"> Hip Hop </a></h4>
         </div>
 
         <div class="element0">
