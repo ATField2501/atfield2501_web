@@ -88,7 +88,7 @@ $nb= $nb1 + $nb2 + $nb3 + $nb4 + $nb5 + $nb6 + $nb7 + $nb8 + $nb9 + $nb10 + $nb1
  
 
 echo "<h2> Le Juke-BoX contiends $nb titres </h2>";
- 
+include("../fonction_identification.php");   
 ?>
 <tt><a><img src=ATField00102.JPG /></a></tt>
 <?php include("menu.php"); ?>
