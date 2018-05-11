@@ -37,7 +37,7 @@ while ($donnees = $reponssse->fetch())
 $reponssse->closeCursor();   
 
 echo "<em><h6> $citation </h6></em><br >"; 
-
+include("fonction_identification.php");  
 ?>
 
 
