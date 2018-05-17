@@ -44,24 +44,28 @@ session_start();
         </div>
     
     
- 
+       <div id="conteneur1">
+       <div class="element1"> 
     <h5>
     <form action="chat_post.php" method="post">
         
         <label for="pseudo">Pseudo</label> : <input type="text" name="pseudo" id="pseudo" value="<?php echo $_SESSION['pseudo'];?>"/><br />
-        <label for="message">Message</label> :  <textarea name="message" rows="4" cols="55">
+        <label for="message">Message</label> :  <textarea name="message" rows="6" cols="65">
 
 </textarea><br />
 
         <input type="submit" value="Envoyer" />
 	
     </form>
-    </h5><br />
+    </h5><br /></div>
   
 <?php
+include("fonction_lecteur.php");
+echo "</div>";
+
 try
 {
-         $bdd = new PDO('mysql:host=localhost;dbname=atfield2501;charset=utf8', 'atfield2501', 'mdp::^^');
+         $bdd = new PDO('mysql:host=localhost;dbname=atfield2501;charset=utf8', 'atfield2501', 'mdp=^^');
 }
 
 catch(Exception $e)
@@ -72,17 +76,32 @@ catch(Exception $e)
 
 }
 
+
+
+
+
 $Date=date("d-m-Y");
 // Récupération des 25 derniers messages
-$reponse = $bdd->query('SELECT pseudo, message, date, heure FROM Chat ORDER BY ID DESC LIMIT 0, 25');
+//$reponse = $bdd->query("SELECT pseudo, REPLACE(message, 'é', 'e'), date, heure FROM Chat ORDER BY ID DESC LIMIT 0, 25");
+
+$reponse = $bdd->query("SELECT pseudo, message, date, heure FROM Chat ORDER BY ID DESC LIMIT 0, 25");
+
+//Création d'un contenaire flexbox
+echo "<div class='element1'>";
 
 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars)
 while ($donnees = $reponse->fetch())
 {
 	echo '<h1><p>[' . $donnees['date'] . ' - ' . $donnees['heure'] . '] <strong>' . htmlspecialchars($donnees['pseudo']) . '</strong><br /><h7>  ' . htmlspecialchars($donnees['message']) . '</h7></p></h1>';
+
 }
 
+//Fermeture du contenaire
+echo "</div>";
+
+
 $reponse->closeCursor();
+
 
 ?>
     </body>
