@@ -1,11 +1,13 @@
 body
 { 
     background-color:black;
-    background-image: url("0.gif");
+    background-image: url("0.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position:  center;
 }
+
+
 
 @font-face {
     font-family: 'Ojack';
@@ -24,12 +26,9 @@ h1
 {
     color: yellow;
     text-align: left; 
-
-    font-size: 22px;
-
-
-      
+    font-size: 22px;      
 }
+
 
 a
 {
@@ -38,6 +37,8 @@ a
 
 }
 
+
+
 li
 {
     
@@ -45,12 +46,16 @@ li
     margin-left: 55px;   
 }
 
+
+
 p
 {
     color: chartreuse;
-
+    overflow:auto;
     margin-left:4%;
 }
+
+
 
 h2
 {    
@@ -61,19 +66,18 @@ h2
     width: 30%;
     box-shadow: 0px 6px 6px green;
     font-family: 'Ojack', Arial, serif;
-
     padding-left: 165px;
 
 }
 
+
+
 h3
 {
-
     color: yellow;
     text-align: justify;
     border: 4px green double;
     border-radius: 10px;
-    margin-left:4%;
     text-align:center;  
     width: 175%;
     font-size: 26px;
@@ -87,26 +91,50 @@ h6
 {
     color: silver;   
     text-align:center; 
-
-
 }
+
+
 
 h4
 {
     border: 4px green double;
     border-radius: 10px;
-    width: 32%;
-
-    margin-left: 4%;
+    width: 60%;
+    text-align:center;
+    margin-left:50%
 }
+
+
+
 
 h5
 {
     margin-left: 4%;
+    margin-top:-1%;
     border: 4px green double;
     border-radius: 10px;
-    width: 22%;
+    width: 81%;
+    font-family: 'Ojack', Arial, serif;
+    color: chartreuse;
+    font-size: 26px;
+    text-align:center;
 }
+
+
+
+h6
+{
+    
+
+    border: 4px green double;
+    border-radius: 10px;
+   
+    font-family: 'Ojack', Arial, serif;
+    color: chartreuse;
+    font-size: 26px;
+    text-align:center;
+}
+
 
 h7
 {
@@ -153,7 +181,7 @@ h2:hover
 
      display: flex; 
 
-   
+
 }
 
 
@@ -172,11 +200,53 @@ h2:hover
 .element0:nth-child(3)
 {
     margin-left:54%;
+
 }
 
 
-.element0:nth-child(4)
+#conteneur1 
 {
+     display: flex; 
+
+}
+
+
+.element1:nth-child(1)
+{
+
+    margin-left:2.5%;
+
+}
+
+
+.element1:nth-child(2)
+{
+    margin-left:4%;
+
+}
+
+
+#conteneur2 
+{
+     display: flex; 
+
+}
+.element2:nth-child(1)
+{
+
+    border: 3px green double;
+    border-radius: 10px;
+    margin-left:4%;
+    margin-right:65%;
+    text-align:center;
+    width:121%;
+}
+
+.element2:nth-child(2)
+{
+
+    text-align:center;
+    margin-left:-35%;
 
 }
 
@@ -306,7 +376,7 @@ strong
 body
 { 
     background-color:black;
-    background-image: url("0.gif");
+    background-image: url("0.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position:  center;
@@ -353,6 +423,7 @@ li
 p
 {
     color: chartreuse;
+overflow:auto;
 
     margin-left:4%;
 }
@@ -518,7 +589,7 @@ strong
 body
 { 
     background-color:black;
-    background-image: url("0.gif");
+    background-image: url("0.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position:  center;
@@ -565,6 +636,7 @@ li
 p
 {
     color: chartreuse;
+overflow:auto;
 
     margin-left:4%;
 }
@@ -693,6 +765,37 @@ h2:hover
 {
 
 }
+
+
+
+#conteneur1 
+{
+    
+
+     display: flex; 
+
+
+}
+
+
+.element1:nth-child(1)
+{
+
+    margin-left:3%;
+}
+
+
+.element1:nth-child(2)
+{
+    margin-left:4%;
+
+}
+
+.element1:nth-child(3)
+{
+
+}
+
 
 input
 {

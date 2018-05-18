@@ -5,9 +5,6 @@
 session_start();
 
 
-
-
-
 ?>
 <!DOCTYPE html>
 
@@ -50,7 +47,7 @@ session_start();
     <form action="chat_post.php" method="post">
         
         <label for="pseudo">Pseudo</label> : <input type="text" name="pseudo" id="pseudo" value="<?php echo $_SESSION['pseudo'];?>"/><br />
-        <label for="message">Message</label> :  <textarea name="message" rows="6" cols="65">
+        <label for="message">Message</label> :  <textarea name="message" rows="9" cols="90">
 
 </textarea><br />
 
@@ -61,6 +58,7 @@ session_start();
   
 <?php
 include("fonction_lecteur.php");
+
 echo "</div>";
 
 try
@@ -77,9 +75,6 @@ catch(Exception $e)
 }
 
 
-
-
-
 $Date=date("d-m-Y");
 // Récupération des 25 derniers messages
 //$reponse = $bdd->query("SELECT pseudo, REPLACE(message, 'é', 'e'), date, heure FROM Chat ORDER BY ID DESC LIMIT 0, 25");
@@ -87,7 +82,12 @@ $Date=date("d-m-Y");
 $reponse = $bdd->query("SELECT pseudo, message, date, heure FROM Chat ORDER BY ID DESC LIMIT 0, 25");
 
 //Création d'un contenaire flexbox
-echo "<div class='element1'>";
+echo "<div id='conteneur2'>";
+echo "<div class='element2'>";
+
+
+
+
 
 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars)
 while ($donnees = $reponse->fetch())
@@ -100,8 +100,11 @@ while ($donnees = $reponse->fetch())
 echo "</div>";
 
 
+
 $reponse->closeCursor();
 
+
+include("Editorial.php");
 
 ?>
     </body>

@@ -11,7 +11,7 @@ fseek($monfichier1, 0);
 fclose($monfichier1);
 
 echo"<div class='element0'><h4><iframe id='player' type='text/html' width='540' height='260'
-  src='http://www.youtube.com/embed/$url?enablejsapi=1'
+  src='http://www.youtube.com/embed/$url?enablejsapi=1&origin=http://atfield2501.free.fr'
   frameborder='0'></iframe></h4></div>";
 
 
