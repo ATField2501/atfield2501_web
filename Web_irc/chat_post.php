@@ -4,8 +4,8 @@
 
 session_start();
 
-$cible01="https://youtube*";
-$cible02="https://dailymotion*";
+$cible01="https://www.youtube.";
+
 
 $_SESSION['pseudo']=$_POST['pseudo'];
 
@@ -34,17 +34,22 @@ if ($_POST['pseudo'] == false)
     $_POST['pseudo'] = "-Anonymous-";
 }
 
-
+//
 
 //Structure conditionnel pour detecter url youtube et dailymotion
-if ($POST['message'] = "https://www.youtube.com/")
+if (strpos($_POST['message'], $cible01) !== FALSE)
 {
 //ouverture du fichier
-$monfichier1 = fopen('url.txt', 'r+');
-//On ecrit l url dans le ficher.
-fputs($monfichier1, $_POST['message']);
-//On remet le pointeur au debut
+$monfichier1 = fopen('url.txt', 'w');
+
 //fseek($monfichier1, 0);
+
+$url=strstr($_POST['message'], $cible01);
+
+//On ecrit l url dans le ficher.
+fputs($monfichier1, $url);
+//On remet le pointeur au debut
+fseek($monfichier1, 0);
 //On referme le fichier
 fclose($monfichier1);
 //split la chaine pour récuperer ID video
