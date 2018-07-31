@@ -1,0 +1,16 @@
+
+body
+{ 
+    background-color: black;
+    background-image: url("***.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+h1
+{
+    color: chartreuse;
+    font-size: 98%;
+    text-align: center; 
+}
