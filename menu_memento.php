@@ -8,6 +8,10 @@
                    </h3>
                </li>
                <li><h3> 
+                   <a href="filmographie.php" title="filmographie" target="_blank"> Filmographie</a>
+                   </h3>
+               </li>
+               <li><h3> 
                    <a href="hiragana.php" title="Hiragana" target="_blank"> Hiragana</a>
                    </h3>
                </li>
