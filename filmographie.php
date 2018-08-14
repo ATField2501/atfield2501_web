@@ -1,4 +1,4 @@
-
+ 
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,11 +20,15 @@
         die('Erreur : '.$e->getMessage());
     } 
 $reponse = $bdd->query("SELECT titre, realisateur, description FROM filmographie ORDER BY titre");
-$res1=$bdd->query('select count(*) as nb1 from filmographie');        
 
-
+$res1=$bdd->query('select count(*) as nb1 from filmographie');       
 $data=$res1->fetch();
 $nb=$data['nb1'];
+
+$res2=$bdd->query('SELECT COUNT(DISTINCT realisateur) as nb2 FROM filmographie');        
+$data=$res2->fetch();
+$nb2=$data['nb2'];
+
 echo "<h2>. . . . . . . ..:: atfield2501 Filmographie ::..  . . . . . . .</h2>";                       
      
 echo '<div id="conteneur1">';
@@ -40,6 +44,8 @@ echo '</div>';
 echo '<div class="element1">';
 echo "<h3>Total des refferences : <a>$nb</a></h3>"; 
 echo '</div>';
+echo '<div class="element0">';
+echo "<h3>Total des realisateurs : <a>$nb2</a></h3>"; 
 echo '</div>';
 ?>
     </body>
