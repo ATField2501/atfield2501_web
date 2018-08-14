@@ -21,12 +21,51 @@
     } 
 $reponse = $bdd->query("SELECT titre, auteur, description FROM bibliographie ORDER BY titre");
 
+$res1=$bdd->query('select count(*) as nb1 from bibliographie');        
+$data=$res1->fetch();
+$nb=$data['nb1'];
 
+$res2=$bdd->query('SELECT COUNT(DISTINCT auteur) as nb2 FROM bibliographie');        
+$data=$res2->fetch();
+$nb2=$data['nb2'];
+
+echo "<h2>. . . . . . . ..:: atfield2501 Bibliographie ::..  . . . . . . .</h2>";                       
+     
+echo '<div id="conteneur0">';
+echo '<div class="element0">';
 while ($donnees = $reponse->fetch())
 {
+
 	echo '<h1>' . $donnees['id'] . $donnees['titre'] . ' - ' . $donnees['auteur'] . ' - ' . $donnees['description'] . '</h1>';
 
 }
+echo '</div>';                  
+
+echo '<div class="element0">';
+echo "<h3>Total des refferences : <a>$nb</a></h3>"; 
+echo '</div>';
+echo '<div class="element0">';
+echo "<h3>Total des auteurs : <a>$nb2</a></h3>"; 
+echo '</div>';
+
+echo '<div class="element0">';
+echo '<legend><h4> Recherche</h4></legend>
+';
+echo '<form action="recherche.php" method="post">';
+echo '<h4>';
+
+echo '<input type="texte" name="recherche" />';           
+echo '<input type="submit" value="Valider" /><br />';
+
+echo '<input type="radio" id="recherche" name="recherche"  checked/>';
+echo '<label for="recherche">titre</label>';
+
+echo '<input type="radio" id="recherche" name="recherche"  />';
+echo '<label for="recherche">auteur</label>';
+
+echo '</h4>';
+echo '</form>';
+echo '</div>';
 
 ?>
     </body>
