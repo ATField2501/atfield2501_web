@@ -12,13 +12,14 @@
                    </h3>
                </li>
                <li><h3> 
-                   <a href="hiragana.php" title="Hiragana" target="_blank"> Hiragana</a>
+                   <a href="kanas.html" title="kanas" target="_blank"> Kanas Japonais</a>
                    </h3>
                </li>
                <li><h3> 
-                   <a href="katakana.php" title="Katakana" target="_blank"> Katakana</a>
+                   <a href="futark_Odin.html" title="futark_Odin" target="_blank"> Runes </a>
                    </h3>
                </li>
+
            </ul>
            </div>
            </div>
