@@ -26,7 +26,7 @@ h1
     color: chartreuse;
     text-align: center; 
     font-family: 'Ojack', Arial, serif;
-    font-size: 82px;
+    font-size: 55px;
     text-shadow: 16px 16px 16px yellow inset;
 
       
@@ -139,6 +139,22 @@ h4:active
     margin-left: 15%;
 }
 
+
+h5
+{
+    border: 4px green double;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 47%;
+    font-family: 'Ojack', Arial, serif;        
+    font-size: 20px;
+}
+
+
+
+
+
 h7
 {
     color: chartreuse;
@@ -186,7 +202,6 @@ a:active
 
 
 
-
 #conteneur0  
 {
        
@@ -199,6 +214,7 @@ a:active
 
 .element0:nth-child(1)
 {
+
 
 
 
@@ -225,7 +241,7 @@ a:active
 
 .element0:nth-child(5)
 {
- 
+
 }
 
 
