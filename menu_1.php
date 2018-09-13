@@ -19,10 +19,14 @@
            <a href="bookmarks.php" title="BookMark" target="_blank"> BookMark</a>
            </h3>
 
+           <h3> 
+           <a href="memento.php" title="Memento" target="_blank"> Memento</a>
+           </h3>
 
            <h3> 
-           <a href="ascii-art/ascii_art.php" title="Ascii Art" > Ascii Art</a>
+           <a href="Diaporama/diaporama.php" title="Diaporama" target="_blank"> Diaporama</a>
            </h3>
+
 
            <h3> 
            <a href="index.php" title="home" > :: (;,,;) ::</a>
