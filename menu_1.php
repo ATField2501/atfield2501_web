@@ -20,7 +20,7 @@
            </h3>
 
            <h3> 
-           <a href="memento.php" title="Memento" target="_blank"> Memento</a>
+           <a href="tab_mementomemento.php" title="Memento" target="_blank"> Memento</a>
            </h3>
 
            <h3> 

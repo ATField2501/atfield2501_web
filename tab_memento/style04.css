@@ -1,0 +1,131 @@
+
+body
+{ 
+    background-color: black;
+    background-image: url("Lovecraft.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+h1
+{
+    color: chartreuse;
+    font-size: 98%;
+
+
+}
+
+h2
+{
+    color: chartreuse;
+    font-size: 98%;
+    border: 3px green double;  
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: center;
+    width: 25%;
+    margin-left: 34%;
+}
+
+h3
+{
+    color: chartreuse;
+    font-size: 98%;
+
+
+    text-align: center;
+
+}
+
+h4
+{
+    color: chartreuse;
+    font-size: 98%;
+    text-align: center;
+
+}
+
+input
+{
+    color: chartreuse;
+
+}
+
+#conteneur0  
+{       
+    display: flex; 
+
+}
+
+.element0:nth-child(1)
+{
+
+    border-radius: 10px;
+    margin-left:12%;
+
+
+}
+
+.element0:nth-child(2)
+{
+
+    border-radius: 10px;
+    margin-left:22%;
+
+    display: flex;        
+
+}
+
+.element0:nth-child(3)
+{
+
+    border-radius: 10px;
+    margin-left:2%;
+       
+    display: flex; 
+}
+
+.element0:nth-child(4)
+{
+    align-self: center;
+    border-radius: 10px;
+    margin-top:4%;
+    margin-right:4%;
+    border: 3px green double;  
+    flex-wrap: wrap;
+}
+
+#conteneur1  
+{       
+    display: flex; 
+
+}
+
+.element1:nth-child(1)
+{
+
+    border-radius: 10px;
+    margin-left:30%;
+
+
+}
+
+.element1:nth-child(2)
+{
+
+    border-radius: 10px;
+    margin-left:12%;
+
+    display: flex;        
+
+}
+
+.element1:nth-child(3)
+{
+
+    border-radius: 10px;
+    margin-left:2%;
+       
+    display: flex; 
+}
