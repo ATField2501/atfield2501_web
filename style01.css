@@ -26,12 +26,11 @@ h1
     color: chartreuse;
     text-align: center; 
     font-family: 'Ojack', Arial, serif;
-    font-size: 82px;
+    font-size: 86px;
     text-shadow: 16px 16px 16px yellow inset;
 
       
 }
-
 
 li
 {
@@ -42,8 +41,9 @@ li
 
 p
 {
-    color: green;
+    color: chartreuse;
     text-align: center;
+
 }
 
 h2
@@ -99,14 +99,6 @@ h3:active
 }
 
 
-h6
-{
-    color: yellow;   
-    text-align:center; 
-
-
-}
-
 h4
 {
     border: 4px green double;
@@ -115,6 +107,20 @@ h4
     box-shadow: 0px -6px 6px green;
     margin-left: 15%;
 }
+
+h5
+{
+   font-size:18px;
+}
+
+h6
+{
+    color: yellow;   
+    text-align:center; 
+
+
+}
+
 
 h7
 {
@@ -148,6 +154,51 @@ a
    color:yellow;
    text-decoration:none;
 }
+
+body
+
+{
+
+    perspective: 800px;
+
+}
+
+div2
+{
+    width: 390px;
+    height:300px;
+
+    position: absolute;
+    text-align: center;
+    font-family: 'Ojack', Arial, serif;
+    transition: 4s;
+    margin-left:42%;
+}
+
+
+#conteneuralpha:hover  
+{
+
+
+    transition-property:font-size;
+    transform: rotateY(360deg); /* On passe de 0 à 360° : tour complet */
+    font-size: 36px;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+/*    background-image: radial-gradient(closest-side circle at center, rgba(0,0,0,1) , rgba(0,0,0,0));*/
+    transition-duration: 0.5s; /* La transition dure 1s */
+
+}
+
+   
+
+
+
+
+
+
+
+
+
 
 #conteneur0  
 {
@@ -185,6 +236,13 @@ a
 .element0:nth-child(4)
 {
 
+}
+
+
+hh:hover
+{
+filter: hue-rotate(0deg);
+-webkit-filter: hue-rotate(0deg);
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////*/
