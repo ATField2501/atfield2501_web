@@ -8,6 +8,19 @@ body
     background-position:  center;
 }
 
+
+@font-face {
+    font-family: 'Ojack';
+    src: url('../SquaredDisplay.ttf');    
+}
+
+
+a
+{
+   color:yellow;
+   text-decoration:none;
+}
+
 table
 {
 
