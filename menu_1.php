@@ -20,7 +20,7 @@
            </h3>
 
            <h3> 
-           <a href="tab_mementomemento.php" title="Memento" target="_blank"> Memento</a>
+           <a href="tab_memento/memento.php" title="Memento" target="_blank"> Memento</a>
            </h3>
 
            <h3> 
@@ -32,4 +32,5 @@
            <a href="index.php" title="home" > :: (;,,;) ::</a>
            </h3></div>
 
-           <div class="element0"><hh><img src="shigurui.jpg"/></hh></div></div>      
+           <div class="element0"><hh><img src="shigurui.jpg"/></hh></div>      
+           <div class="element0"><?php include("carte_visiteur.php");?></div></div>      

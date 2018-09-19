@@ -42,7 +42,7 @@ include("fonction_identification.php");
 
 
 <?php include("menu_1.php"); 
-      include("carte_visiteur.php");
+
 ?>        
 
 

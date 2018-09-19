@@ -159,45 +159,11 @@ body
 
 {
 
-    perspective: 800px;
+    perspective: -800px;
 
 }
 
-div2
-{
-    width: 390px;
-    height:300px;
-
-    position: absolute;
-    text-align: center;
-    font-family: 'Ojack', Arial, serif;
-    transition: 4s;
-    margin-left:42%;
-}
-
-
-#conteneuralpha:hover  
-{
-
-
-    transition-property:font-size;
-    transform: rotateY(360deg); /* On passe de 0 à 360° : tour complet */
-    font-size: 36px;
-    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
-/*    background-image: radial-gradient(closest-side circle at center, rgba(0,0,0,1) , rgba(0,0,0,0));*/
-    transition-duration: 0.5s; /* La transition dure 1s */
-
-}
-
-   
-
-
-
-
-
-
-
-
+ 
 
 
 #conteneur0  
@@ -236,14 +202,82 @@ div2
 .element0:nth-child(4)
 {
 
+    margin-left:-98%;
+    margin-top:27%;
 }
 
+div2
+{
+    width: 390px;
+    height:200px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Ojack', Arial, serif;
+    transition: 4s;
+    margin-left:42%;
+    backface-visibility: hidden; /* Permet d'éviter de voir le bloc de dos */
+
+}
+
+
+#devant
+{
+    z-index: 100;
+}
+
+#derriere
+{
+    z-index: 50;
+    transform: rotateY(-180deg); /* Celui-ci est retourné par défaut */
+
+}
+
+#devant:hover 
+{
+
+    transform: rotateY(360deg);  /* On passe de -180° à 180° : tour complet */
+
+}
+
+
+#devant:hover+ #derriere
+
+{
+
+
+ /*   top: 24%; left: 00px;*/
+
+    transform: rotateY(180deg); /* On passe de 0 à 360° : tour complet */
+
+              
+ /*   background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));*/
+/*    background-image: radial-gradient(closest-side circle at center, rgba(0,0,0,1) , rgba(0,0,0,0));*/
+
+
+
+
+
+
+} 
 
 hh:hover
 {
 filter: hue-rotate(0deg);
 -webkit-filter: hue-rotate(0deg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*/////////////////////////////////////////////////////////////////////////////////////*/
 
