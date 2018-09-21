@@ -27,9 +27,7 @@ h1
     text-align: center; 
     font-family: 'Ojack', Arial, serif;
     font-size: 86px;
-    text-shadow: 16px 16px 16px yellow inset;
-
-      
+    text-shadow: 16px 16px 16px yellow inset;      
 }
 
 li
@@ -43,7 +41,6 @@ p
 {
     color: chartreuse;
     text-align: center;
-
 }
 
 h2
@@ -55,10 +52,7 @@ h2
     width: 115%;
     box-shadow: 0px -2px 6px green; 
     font-family: 'Ojack', Arial, serif;
-
     text-align: center;
-   
-
 }
 
 h3
@@ -69,8 +63,8 @@ h3
     border: 4px green double;
     border-radius: 10px;
     margin-left:2%;
-     font-family: 'Ojack', Arial, serif;    
-font-size: 150%;          
+    font-family: 'Ojack', Arial, serif;    
+    font-size: 150%;          
     width: 105%;
 }
 
@@ -283,7 +277,7 @@ filter: hue-rotate(0deg);
 
 
 @media all and (360x640)
-
+{
 hh
 {
     display: none;
@@ -345,6 +339,7 @@ p
 {
     color: green;
     text-align: center;
+    font-size: 25px;
 }
 
 h2
@@ -416,6 +411,9 @@ h4
     margin-left: 15%;
 }
 
+
+
+
 h7
 {
     color: chartreuse;
@@ -442,11 +440,17 @@ li:hover
     color: red;
 }
 
-a
+
+body
+
 {
-   color:yellow;
-   text-decoration:none;
+
+    perspective: -800px;
+
 }
+
+ 
+
 
 #conteneur0  
 {
@@ -462,8 +466,8 @@ a
 {
 
     border-radius: 10px;
-    margin-left:6%;
-          align-self: flex-start;  
+    margin-left:12%;
+       
 
 }
 
@@ -471,24 +475,74 @@ a
 .element0:nth-child(2)
 {
  
-
-    margin-left:6%;
+    align-self: flex-end;
+    margin-left:-7%;
 }
 
 .element0:nth-child(3)
 {
-
+    margin-left:56%;
 }
 
 
 .element0:nth-child(4)
 {
 
+    margin-left:-62%;
+    margin-top:65%;
+}
+.element0:nth-child(5)
+{
+
+    margin-left:-10%;
+    margin-top:-20%;
+}
+
+div2
+{
+    width: 390px;
+    height:200px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Ojack', Arial, serif;
+    transition: 4s;
+    margin-left:42%;
+    backface-visibility: hidden; /* Permet d'éviter de voir le bloc de dos */
+
 }
 
 
+#devant
+{
+    z-index: 100;
+}
+
+#derriere
+{
+    z-index: 50;
+    transform: rotateY(-180deg); /* Celui-ci est retourné par défaut */
 
 }
+
+#devant:hover 
+{
+
+    transform: rotateY(360deg);  /* On passe de -180° à 180° : tour complet */
+
+}
+
+
+#devant:hover+ #derriere
+
+{
+
+
+ /*   top: 24%; left: 00px;*/
+
+    transform: rotateY(180deg); /* On passe de 0 à 360° : tour complet */
+}
+}
+
 
 /*/////////////////////////////////////////////////////////////////////////////////////*/
 
