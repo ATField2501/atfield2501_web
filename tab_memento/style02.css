@@ -37,7 +37,8 @@ li
 {
     
     color: green; 
-    margin-left: 55px;   
+    margin-left: 55px;  
+
 }
 
 p
@@ -66,11 +67,35 @@ h3
 
     color: green;
     text-align: center;
-
+    border: 4px green double;
+    border-radius: 10px;
     margin-left:2%;
-    font-family: 'Ojack', Arial, serif;    
-    font-size: 26px;
-    width: 74%;
+       
+    width: 145%;
+}
+
+h3:hover
+{
+
+    color: yellow;
+    text-align: center;
+    border: 4px green double;
+    border-radius: 10px;
+    margin-left:4%;
+    
+    width: 147%;
+}
+
+h3:active
+{
+
+    color: green;
+    text-align: center;
+    border: 4px yellow double;
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 2px chartreuse;   
+    width: 144%;
 }
 
 
@@ -138,7 +163,7 @@ a
 
 .elementooo:nth-child(1)
 {
-    border-radius: 10px;
+
     margin-left:4%;
     margin-top: 5%;   
 
