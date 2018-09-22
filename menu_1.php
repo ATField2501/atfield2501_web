@@ -33,4 +33,4 @@
            </h3></div>
 
            <div class="element0"><hh><img src="shigurui.jpg"/></hh></div></div>      
-           <div class="element0"><?php include("carte_visiteur.php");?></div></div>      
+           <div class="element0"><?php include("carte_visiteur.php");?></div>      
