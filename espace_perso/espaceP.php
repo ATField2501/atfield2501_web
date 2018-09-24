@@ -9,17 +9,18 @@
     </head>
 
     <body>
-
 <?php
 echo '<p><h2> Adresse du Serveur : ' . $_SERVER['SERVER_NAME'] . '</h2></p>';
 echo '<p><h2>' . $_SERVER['HTTP_USER_AGENT'] . '</p></h2>';
-if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "mdp::^^") // Si le mot de passe est bon
+
+
+if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "*****") // Si le mot de passe est bon
 {
 
 
 try
 {
-         $bdd = new PDO('mysql:host=localhost;dbname=Visiteurs;charset=utf8', 'atfield2501', 'mdp::^^');
+         $bdd = new PDO('mysql:host=localhost;dbname=atfield2501;charset=utf8', 'atfield2501', 'mdp::^^');
 }
 
 catch(Exception $e)
@@ -31,12 +32,12 @@ catch(Exception $e)
 }
 
 // Récupération des 50 derniers messages
-$reponse = $bdd->query('SELECT id, ip_adresse, date, heure, user_agent FROM Visiteurs ORDER BY ID DESC LIMIT 0, 50');
+$reponse = $bdd->query('SELECT id, ip_adresse, nb , date, heure, user_agent FROM Visiteurs ORDER BY ID DESC LIMIT 0, 50');
 
 
 while ($donnees = $reponse->fetch())
 {
-	echo '<p><h1>' . $donnees['id'] . ' - ' . $donnees['ip_adresse'] . '   le: ' . $donnees['date'] . '   à: '.$donnees['heure'] . ' sur-> ' . $donnees['user_agent']. '</h1></p>';
+	echo '<p><h1>' . $donnees['id'] . ' - ' . $donnees['ip_adresse'] .'- ' . '('.$donnees['nb'] .'X'.')'.' - '. '   le: ' . $donnees['date'] . '   à: '.$donnees['heure'] . ' sur-> ' . $donnees['user_agent']. '</h1></p>';
 }
 
 $reponse->closeCursor();
