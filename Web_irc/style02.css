@@ -91,6 +91,8 @@ h6
 {
     color: silver;   
     text-align:center; 
+    margin-right:8%;
+
 }
 
 
@@ -99,9 +101,9 @@ h4
 {
     border: 4px green double;
     border-radius: 10px;
-    width: 60%;
+    width: 115%;
     text-align:center;
-    margin-left:50%
+    margin-left:75%
 }
 
 
@@ -113,7 +115,7 @@ h5
     margin-top:-1%;
     border: 4px green double;
     border-radius: 10px;
-    width: 81%;
+    width: 85%;
     font-family: 'Ojack', Arial, serif;
     color: chartreuse;
     font-size: 26px;
@@ -128,11 +130,12 @@ h6
 
     border: 4px green double;
     border-radius: 10px;
-   
+    width:75%;  
     font-family: 'Ojack', Arial, serif;
     color: chartreuse;
     font-size: 26px;
     text-align:center;
+    margin-left:135%;
 }
 
 
@@ -194,12 +197,12 @@ h2:hover
 
 .element0:nth-child(2)
 {
-    margin-left:4%;
+    margin-left:14%;
 }
 
 .element0:nth-child(3)
 {
-    margin-left:54%;
+    margin-left:45%;
 
 }
 
@@ -237,17 +240,17 @@ h2:hover
     border: 3px green double;
     border-radius: 10px;
     margin-left:4%;
-    margin-right:65%;
+    margin-right:21%;
     text-align:center;
-    width:121%;
+    width:31%;
 }
 
 .element2:nth-child(2)
 {
 
     text-align:center;
-    margin-left:-35%;
-
+    margin-left:-25%;
+    width:31%;
 }
 
 input
