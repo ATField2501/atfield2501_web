@@ -24,6 +24,12 @@
         die('Erreur : '.$e->getMessage());
         }
 
+        
+        $res = $bdd->query('select sum(nb) as tnb from Visiteurs');
+        $data = $res->fetch();
+        $tnb = $data['tnb'];  
+        echo '<h3> Total de connexions : ' . $tnb . '</h3>';    
+
         // Récupération des 50 derniers messages
         $reponse = $bdd->query('SELECT id, ip_adresse, nb , date, heure, user_agent FROM Visiteurs ORDER BY ID DESC LIMIT 0, 50');
 
