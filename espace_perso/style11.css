@@ -1,0 +1,100 @@
+body
+{ 
+    background-color:black;
+    background-image: url("2001zzz.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+@font-face {
+    font-family: 'Ojack';
+    src: url('../SquaredDisplay.ttf');    
+}
+
+
+a
+{
+    text-decoration:none;
+    color:chartreuse;
+    font-size: 26px;
+    font-family: 'Ojack', Arial, serif;
+   border: 1px white solid;
+   border-radius: 7px;
+    margin-left:5%;
+}
+
+
+
+
+p
+{
+   
+    text-align: center; 
+    color: chartreuse;
+    font-family: 'Ojack', Arial, serif;
+    font-size:220%;
+
+}
+
+h1
+{
+   
+    text-align: left; 
+    margin-left:5%;
+    color: chartreuse;
+    font-family: 'Ojack', Arial, serif;
+    font-size:150%;
+   
+}
+
+h2
+{
+   
+    text-align: center; 
+    margin-right:5%;
+    color: chartreuse;
+    font-family: 'Ojack', Arial, serif;
+    font-size:250%;
+   
+}
+
+h3
+{
+  
+    text-align: center; 
+    margin-right:5%;
+    color: chartreuse;
+    font-family: 'Ojack', Arial, serif;
+    font-size:175%;
+    border: 1px red double;
+    padding-left:10%;
+    padding-right:10%;
+    width:50%;   
+}
+
+iframe{
+   margin-top:2%;
+   margin-left:5%;
+   border: 1px white solid;
+   border-radius: 7px;
+
+}
+
+
+
+input
+{
+   background-color: transparent;
+}
+
+#navbar
+{
+    width:20%;; 
+    display:block; 
+    height:55%; 
+    background-color:black;
+}
+
+
+
