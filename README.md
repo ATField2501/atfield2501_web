@@ -17,6 +17,6 @@ technologie: html/css php sql
 ![chatbox](https://i.ibb.co/4p1CkQs/ChatBox.png)
 
 ## Lymbes (espace administration)
-![lymbes](https://i.ibb.co/MNr5gwy/Lymbes.png)
+![lymbes](https://i.ibb.co/Kjzs75p/Lymbes.png)
 
 
