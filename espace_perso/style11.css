@@ -1,10 +1,11 @@
 body
 { 
     background-color:black;
-    background-image: url("2001zzz.jpg");
+    background-image: url("flammes.gif");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position:  center;
+background-size: cover;
 }
 
 @font-face {
@@ -21,7 +22,8 @@ a
     font-family: 'Ojack', Arial, serif;
    border: 1px white solid;
    border-radius: 7px;
-    margin-left:5%;
+    padding-left:10%;
+    padding-right:10%;
 }
 
 
