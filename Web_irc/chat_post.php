@@ -11,8 +11,8 @@ $_SESSION['pseudo']=$_POST['pseudo'];
 
 try
 {
-
-       $bdd = new PDO('mysql:host=localhost;dbname=atfield2501;charset=utf8', 'atfield2501', 'mdp=^^');
+       include('../ConstantesSecretes.php');
+       $bdd = new PDO('mysql:host=localhost;dbname=atfield2501;charset=utf8', 'atfield2501', $mdp_db);
 }  
   
 catch(Exception $e)
