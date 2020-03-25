@@ -23,7 +23,7 @@
     echo '<h2>total   ' . $pages_vues . ' vues</h2>';
     echo ' <h2>'. date("d-m-Y") .' </h2>';
     include("fonction_identification.php");
-    echo '<h2><a href="donnation.php"><titre> Soutenez ce site </titre></a><    /h2>';
+    echo '<h2><a href="donnation.php"><titre> Soutenez ce site </titre></a></h2>';
 ?>
     </body>
 </html>
