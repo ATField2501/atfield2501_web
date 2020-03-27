@@ -40,7 +40,7 @@
     echo "<em><h6> $citation </h6></em><br >"; 
     include("fonction_identification.php");  
     include("menu_1.php"); 
-
+    include("carte_visiteur.php");
 ?>        
 
 
