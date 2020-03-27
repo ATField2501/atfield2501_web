@@ -27,7 +27,7 @@ $res1=$bdd->query('select count(*) as nb1 from darkwave');
 $res2=$bdd->query('select count(*) as nb2 from hiphop');             
 $res3=$bdd->query('select count(*) as nb3 from punk');
 $res4=$bdd->query('select count(*) as nb4 from wtf'); 
-$res5=$bdd->query('select count(*) as nb5 from raggae');                                                                                            
+$res5=$bdd->query('select count(*) as nb5 from raggae');                                                                              
 $res6=$bdd->query('select count(*) as nb6 from classique');  
 $res7=$bdd->query('select count(*) as nb7 from chansons'); 
 $res8=$bdd->query('select count(*) as nb8 from rockpsy');
@@ -89,6 +89,7 @@ $nb= $nb1 + $nb2 + $nb3 + $nb4 + $nb5 + $nb6 + $nb7 + $nb8 + $nb9 + $nb10 + $nb1
  
 
 echo "<h2> Le Juke-BoX contiends $nb titres </h2>";
+include("touche_aleatoire.php");
 include("../fonction_identification.php");   
 ?>
 <tt><a><img src=ATField00102.JPG /></a></tt>
